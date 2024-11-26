@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tilt+Warp&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400..800&family=Coiny&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tilt+Warp&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400..800&family=Coiny&family=Londrina+Outline&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tilt+Warp&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    background-color: salmon;
+    padding: 1rem;
+}
+
+.header h4{
+    font-family: "Baloo Tamma 2", sans-serif;
+}
+
+.navBar a{
+    text-decoration: none;
+    color: black;
+}
+
+.navBar{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding-top: 1.5rem;
+    flex-wrap: wrap;
+    font-family: "Baloo Tamma 2", sans-serif;
+}
+
+
+
+.navBar button{
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: olive;
+    border: none;
+    font-family: "Coiny", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.heroSection{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    box-sizing: border-box;
+    gap: 2rem;
+    max-height: auto;
+}
+
+.heroSection img{
+    min-width: 300px;
+    max-width: 900px;
+    flex: 1;
+}
+
+.heroSection h1{
+    font-family: "Londrina Outline", sans-serif;
+    font-size: 60px;
+    flex-shrink: 1;
+    padding-top: 10rem;
+    padding-right: 9rem;
+    color: salmon;
+}
+
+
+
+
+
+
+.bottomImages, .orangeCupCake{
+    min-width: 60px;
+    max-width: 500px;
+    max-height: 500px;
+    flex-shrink: 1;
+    border-radius: 20rem;
+    padding-top: 2rem;
+    padding-right: 3rem;
+}
+
+.bottomSection{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 2rem;
+}
+
+.bottomSectionRight{
+ display: flex;
+ flex-direction: column;
+ align-items: flex-end;
+ padding: 6rem;
+ justify-content: center;
+ padding-top: 0;
+}
+
+
+
+
+
+
+
+
+.bottomSectionRight p{
+    font-family: "Baloo Tama 2", sans-serif;
+    line-height: 1.8;
+}
+
+.bottomSectionRight h1{
+   
+    font-family: "Coiny", sans-serif;
+    color: olive;
+    font-size: 40px;
+}
+
+.bottomSectionImage{
+    min-width: 300px;
+    max-width: 100%;
+    max-height: 500px;
+    flex: 1;
+    max-height: auto;
+}
+
+
+
+   @media (max-width: 768px) {
+    .bottomSection {
+        flex-wrap: wrap;
+    }
+
+    .bottomSection h1{
+        padding-top: 1rem;
+    }
+
+    .bottomSectionRight {
+        padding-left: 2rem;
+    }
+
+    .bottomSection img {
+        padding-left: 2rem;
+        flex-shrink: 1;
+    }
+
+    .heroSection h1 {
+        padding-left: 2rem;
+        padding-top: 0;
+    }
+   }
+
+   
+
+   
